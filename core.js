@@ -42,3 +42,4 @@ window._wpemojiSettings = {
         "complete" === a.readyState && t.readyCallback()
     })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
 }(window, document, window._wpemojiSettings);
+
