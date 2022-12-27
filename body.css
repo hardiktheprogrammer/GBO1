@@ -1049,7 +1049,7 @@ body {
 
   @media (max-width: 480px) {
     text {
-      font-size: 5.8px;
+      /* font-size: ; */
       font-family: sans-serif;
       fill: #e5b80b;
       text-shadow: 4px -1px 3px #000000;
