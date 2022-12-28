@@ -1,7 +1,6 @@
 .middle {
   font-size: 100px;
   /* width: 700px; */
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9,6 +8,5 @@
   justify-content: center;
   display: flex;
   color: #e5b80b;
-
   text-align: center;
 }
