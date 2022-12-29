@@ -497,34 +497,88 @@ body {
     }
     .containersvg {
       width: var(--w1, 600px) !important;
+      overflow: hidden;
     }
     .elementor-72 .elementor-element.elementor-element-fa39f46 img {
       width: 29% !important;
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     body:not(.rtl)
       .elementor-72
       .elementor-element.elementor-element-a8686da {
       left: 10px;
+      margin: 0;
+      
     }
     .elementor-72 .elementor-element.elementor-element-fa39f46 img {
       width: 50% !important;
+      overflow: hidden;
     }
   }
+  @media(max-width: 320px){ 
+    body:not(.rtl)
+    .elementor-72
+    .elementor-element.elementor-element-a8686da {
+    left: 10px;
+    margin: 0;
+    
+  }
+    /* CSS */
+    .elementor .elementor-background-video-hosted {
+      top: 50.9% !important;
+      width: auto;
+    }
+    .menu__btn {
+      padding-top: 10px;
+      padding-left: 20px;
+    }
+    .containersvg {
+      width: var(--w1, 100px) !important;
+      overflow: hidden;
+    }
+    .elementor-72 .elementor-element.elementor-element-fa39f46 img {
+      width: 35% !important;
+    }
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+    body:not(.rtl)
+    .elementor-72
+    .elementor-element.elementor-element-a8686da {
+    left: 10px;
+    margin: 0;
+    
+  }
+    /* CSS */
+    .elementor .elementor-background-video-hosted {
+      top: 39.9% !important;
+      padding: auto;
+    }
+    .menu__btn {
+      padding-top: 10px;
+      padding-left: 20px;
+    }
+    .containersvg {
+      width: var(--w1, 600px) !important;
+      overflow: hidden;
+    }
+    .elementor-72 .elementor-element.elementor-element-fa39f46 img {
+      width: 35% !important;
+    }
+}
 
   @media (max-width: 360px) {
     .containersvg {
-      width: var(--w1, 333px) !important;
+      width: var(--w1, 355px) !important;
+      overflow: hidden;
     }
     .elementor .elementor-background-video-hosted {
       top: 37.9% !important;
+      width: 100% !important;
     }
     .elementor-72 .elementor-element.elementor-element-a8686da {
-      width: 255.188px;
-      max-width: 255.188px;
-      top: -175px;
+      width: 50% !important;
     }
   }
 
